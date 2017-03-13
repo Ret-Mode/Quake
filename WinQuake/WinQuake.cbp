@@ -23,6 +23,7 @@
 					<Add directory="./dxsdk/sdk/inc" />
 				</Compiler>
 				<Linker>
+					<Add option="-static" />
 					<Add library="kernel32" />
 					<Add library="user32" />
 					<Add library="gdi32" />
@@ -60,6 +61,7 @@
 					<Add directory="./dxsdk/sdk/inc" />
 				</Compiler>
 				<Linker>
+					<Add option="-static" />
 					<Add library="kernel32" />
 					<Add library="user32" />
 					<Add library="gdi32" />
@@ -97,6 +99,7 @@
 					<Add directory="./dxsdk/sdk/inc" />
 				</Compiler>
 				<Linker>
+					<Add option="-static" />
 					<Add library="winmm" />
 					<Add library="wsock32" />
 					<Add library="opengl32" />
@@ -134,6 +137,7 @@
 					<Add directory="./dxsdk/sdk/inc" />
 				</Compiler>
 				<Linker>
+					<Add option="-static" />
 					<Add library="winmm" />
 					<Add library="wsock32" />
 					<Add library="opengl32" />
